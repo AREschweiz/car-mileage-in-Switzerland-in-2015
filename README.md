@@ -3,8 +3,6 @@ This code computes the distribution of mileage of private cars in Switzerland in
 
 The sample basis is similar to the one used in figure G 3.3.2.3 in the main report of the MTMC (p.31, <a href="https://www.are.admin.ch/dam/are/fr/dokumente/verkehr/dokumente/mikrozensus/verkehrsverhalten-der-bevolkerung-ergebnisse-des-mikrozensus-mobilitat-und-verkehr-2015.pdf.download.pdf/Mikrozensus_Verkehrsverhalten%20der%20Bev%C3%B6lkerung%202015_fr.pdf">in French</a> and <a href="https://www.are.admin.ch/dam/are/de/dokumente/verkehr/dokumente/mikrozensus/verkehrsverhalten-der-bevolkerung-ergebnisse-des-mikrozensus-mobilitat-und-verkehr-2015.pdf.download.pdf/Mikrozensus_Verkehrsverhalten%20der%20Bev%C3%B6lkerung%202015_de.pdf">in German</a>). It is slightly higher here than in the main report, because we don't decompose the mileage between "in Switzerland" and "abroad". Consequently, we don't remove observations without this information.
 
-The figure has been published on Twitter in <a href="https://twitter.com/AntoninDanalet/status/1083382123355140096">French</a>, <a href="https://twitter.com/AntoninDanalet/status/1083383807309418503">German</a> and <a href="https://twitter.com/AntoninDanalet/status/1083385236841472002">English</a> and <a href="https://www.linkedin.com/feed/update/urn:li:activity:6489459673538846720/">on Linkedin in English</a>.
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for reproducing the result and understanding how it has been generated. 
@@ -17,7 +15,7 @@ For it to produce the results, you also need the raw data of the Transport and M
 
 ### Run the code
 
-Please copy the file <em>fahrzeuge.csv</em> that you receive from the Federal Statistical Office in the folder "<a href="https://github.com/antonindanalet/car-mileage-in-Switzerland-in-2015/tree/master/data/input">data/input</a>". Then run <em><a href="https://github.com/antonindanalet/car-mileage-in-Switzerland-in-2015/blob/master/src/run_car_mileage_in_Switzerland_in_2015.py">run_car_mileage_in_Switzerland_in_2015.py</a></em>. 
+Please copy the file <em>fahrzeuge.csv</em> that you receive from the Federal Statistical Office in the folder "<a href="https://github.com/AREschweiz/car-mileage-in-Switzerland-in-2015/tree/master/data/input">data/input</a>". Then run <em><a href="https://github.com/AREschweiz/car-mileage-in-Switzerland-in-2015/blob/master/src/run_car_mileage_in_Switzerland_in_2015.py">run_car_mileage_in_Switzerland_in_2015.py</a></em>. 
 
 DO NOT commit or share in any way the CSV-file <em>fahrzeuge.csv</em>! These are personal data.
 
